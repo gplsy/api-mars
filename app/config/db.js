@@ -1,7 +1,7 @@
 import prisma from "./prisma.js";
 
 const createUserResponse = (user) => ({
-    Device: user.device,
+    Mars: user.device,
     Admin: user.admin,
     Expired: user.expired,
     Message: "komo",
